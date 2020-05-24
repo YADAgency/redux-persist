@@ -1,11 +1,14 @@
 {
-  "name": "redux-persist",
+  "name": "@yadagency/redux-persist",
   "version": "6.0.1",
   "description": "persist and rehydrate redux stores",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "./types/index.d.ts",
-  "repository": "rt2zz/redux-persist",
+  "repository": "yadagency/redux-persist",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "files": [
     "es",
     "src",
